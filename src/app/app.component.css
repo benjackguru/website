@@ -6,3 +6,7 @@
     flex: 1 1 auto;
   }
   
+.spacer{
+    margin-left: 8px;
+    margin-right: 8px;
+}
