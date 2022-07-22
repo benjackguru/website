@@ -1,0 +1,32 @@
+.container-1{
+    min-height: 100vh;
+}
+.h3-1 {
+    font-family: noto-semibold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.155em;
+    color: #4F4F4F;
+}
+
+.text-2 h1{
+    font-family: noto-bold;
+
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+
+color: #3C3C3C;
+}
+
+.sapcer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.first .second{
+    font-family: noto-medium;
+}
+button{
+    font-family: noto-medium;
+    font-size: 16px;
+}

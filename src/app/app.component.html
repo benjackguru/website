@@ -1,4 +1,5 @@
-<mat-toolbar style="background-color: white">
+<div class="container" style="position: fixed;width: 100%;top: 0px;">
+<mat-toolbar style="background-color: white; box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.07);">
   <div class="logo">
     <img src="./../assets/img/logo.svg" alt="" />
   </div>
@@ -6,24 +7,24 @@
   <span class="example-spacer"></span>
   <div class="nav-menu" style="display: flex;">
     <div class="m-space"></div>
-    <div class="menu1">
-      <a href="">Home</a>
+    <div class="menu1" >
+      <a routerLink="home" routerLinkActive="active active-line">Home</a>
+    </div>
+    <div class="m-space"></div>
+    <div class="menu1" routerLink="product">
+      <a routerLink="product" routerLinkActive="active">Products</a>
     </div>
     <div class="m-space"></div>
     <div class="menu1">
-      <a href="">Products</a>
+      <a routerLink="blog" routerLinkActive="active">Blog</a>
     </div>
     <div class="m-space"></div>
     <div class="menu1">
-      <a href="">Blog</a>
+      <a routerLink="about" routerLinkActive="active">About</a>
     </div>
     <div class="m-space"></div>
     <div class="menu1">
-      <a href="">About</a>
-    </div>
-    <div class="m-space"></div>
-    <div class="menu1">
-      <a href="">Contact</a>
+      <a routerLink="contact" routerLinkActive="active">Contact</a>
     </div>
   </div>
 
@@ -43,4 +44,5 @@
     </button>
   </div>
 </mat-toolbar>
-
+</div>
+<router-outlet></router-outlet>
