@@ -30,3 +30,66 @@ button{
     font-family: noto-medium;
     font-size: 16px;
 }
+
+.container-2 img{
+
+    height: 100vh;
+}
+
+.main-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-2-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+.main-2-text h3{
+    font-family: noto-semibold;
+    font-size: 40px;
+    line-height: 65px;
+color: #4F4F4F;
+}
+.main-2-text p{
+    font-family: noto-medium;
+    font-size: 20px;
+    line-height: 33px;
+
+color: #4F4F4F;
+}
+
+.container-3 img{
+
+    height: 100vh;
+}
+
+.main-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-3-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right:  20px;
+    
+}
+.main-3-text h3{
+    font-family: noto-semibold;
+    font-size: 40px;
+    line-height: 65px;
+    color: #4F4F4F;
+    text-align: right;
+}
+.main-3-text p{
+    font-family: noto-medium;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: right;
+    color: #4F4F4F;
+}
