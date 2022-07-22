@@ -93,3 +93,13 @@ color: #4F4F4F;
     text-align: right;
     color: #4F4F4F;
 }
+
+li{
+    list-style: none;
+    text-decoration: none;
+    font-family: noto-medium;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: right;
+    color: #4F4F4F;
+}
